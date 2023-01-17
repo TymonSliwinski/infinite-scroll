@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="infiniteScroll.css">
+    <script src="https://s.electerious.com/basicLightbox/dist/basicLightbox.min.js"></script>
+    <link rel="stylesheet" href="https://s.electerious.com/basicLightbox/dist/basicLightbox.min.css">
+    <title>infinite scrolling</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper grey lighten-1">
+                <form id="search-form" action="" onsubmit="return false">
+                    <div class="input-field">
+                        <input type="search" id="search-input" name="query" autocomplete="off" />
+                        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <a id="search-submit" class="btn waves-effect waves-light">Search</a>
+    <div class="container">
+        <ul id="images-container" class="grid"></ul>
+    </div>
+    <!-- <ul>
+
+        Zestaw elementów listy z Image cards
+
+        <li>
+
+            Card
+
+            <a href="link na duży obraz">
+                <img src="link na mały obraz" data-source="link na duży obrazе" alt="opis" /> </a>
+        </li>
+    </ul> -->
+</body>
+<script src="infiniteScroll.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
+</html>
