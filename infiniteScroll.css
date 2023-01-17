@@ -1,0 +1,13 @@
+#search-submit {
+    position: fixed;
+    top: 14px;
+    right: 10px;
+    z-index: 999;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 20px;
+}
